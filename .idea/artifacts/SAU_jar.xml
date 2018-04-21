@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SAU:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SAU_jar</output-path>
+    <root id="archive" name="SAU.jar">
+      <element id="module-output" name="SAU" />
+    </root>
+  </artifact>
+</component>
