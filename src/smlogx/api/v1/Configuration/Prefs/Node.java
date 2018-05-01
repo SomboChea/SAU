@@ -8,4 +8,6 @@ public class Node {
     public String getNode() {
         return this._node;
     }
+
+    public final static String DB_ROOT = "smx.db.config";
 }

@@ -1,5 +1,8 @@
 package smlogx.UnitTest;
 
+import smlogx.api.v1.Configuration.Prefs.Config;
+import smlogx.api.v1.Configuration.Prefs.Node;
+
 public class Test {
 
     public void test() {
@@ -7,7 +10,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        Test t = new Test();
-        t.test();
+        Config config = new Config(Node.DB_ROOT);
+
     }
 }
