@@ -14,3 +14,4 @@
 [ Wed 02-05-2018 08:10:48 PM ] || FROM => Model.Open <=  || LOG@ => FATAL: password authentication failed for user "sa" <= 
 [ Wed 02-05-2018 08:11:13 PM ] || FROM => Model.Open <=  || LOG@ => FATAL: password authentication failed for user "sa" <= 
 [ Wed 02-05-2018 08:12:54 PM ] || FROM => Model.Open <=  || LOG@ => The connection attempt failed. <= 
+[ Thu 03-05-2018 10:56:46 AM ] || FROM => Model.Open <=  || LOG@ => No suitable driver found for jdbc:mysql://localhost:3306/test <= 

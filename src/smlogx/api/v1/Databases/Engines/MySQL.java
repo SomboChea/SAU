@@ -22,6 +22,7 @@ public class MySQL extends DBAction implements IBaseDatabase.DML {
             return true;
         } catch (SQLException e) {
             e.printStackTrace();
+
             Log.Write(e.getMessage(), "MySQL.Open");
         }
         return false;
