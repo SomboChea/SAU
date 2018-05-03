@@ -8,5 +8,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="mariadb-java-client-2.2.3" level="project" />
+    <orderEntry type="library" name="ojdbc7" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.11" level="project" />
+    <orderEntry type="library" name="mssql-jdbc-6.4.0.jre9" level="project" />
+    <orderEntry type="library" name="postgresql-42.2.2" level="project" />
   </component>
 </module>
