@@ -1,0 +1,16 @@
+
+[ Wed 02-05-2018 06:50:36 PM ] || FROM => Model.Open <=  || LOG@ => Could not connect to address=(host=172.17.0.6)(port=3307)(type=master) : Connection refused (Connection refused) <= 
+[ Wed 02-05-2018 06:51:19 PM ] || FROM => Model.Open <=  || LOG@ => Could not connect to address=(host=172.17.0.6)(port=3307)(type=master) : Connection refused (Connection refused) <= 
+[ Wed 02-05-2018 07:48:24 PM ] || FROM => Model.Open <=  || LOG@ => Could not connect to address=(host=null)(port=3306)(type=master) : null <= 
+[ Wed 02-05-2018 07:48:54 PM ] || FROM => Model.Open <=  || LOG@ => Cannot load connection class because of underlying exception: com.mysql.cj.exceptions.WrongArgumentException: Malformed database URL, failed to parse the main URL sections. <= 
+[ Wed 02-05-2018 07:49:33 PM ] || FROM => Model.Open <=  || LOG@ => No suitable driver found for jdbc:sqlserver://172.17.0.4::3306;databaseName=test;user=root;password=root <= 
+[ Wed 02-05-2018 07:55:06 PM ] || FROM => Model.Open <=  || LOG@ => The port number :3306 is not valid. <= 
+[ Wed 02-05-2018 07:55:32 PM ] || FROM => Model.Open <=  || LOG@ => The port number :1433 is not valid. <= 
+[ Wed 02-05-2018 08:03:39 PM ] || FROM => Model.Open <=  || LOG@ => Login failed for user 'root'. ClientConnectionId:0f426279-f805-467a-8312-468f3fa50c0e <= 
+[ Wed 02-05-2018 08:04:02 PM ] || FROM => Model.Open <=  || LOG@ => Login failed for user 'sa'. ClientConnectionId:20648cdb-d5f4-4bfa-8754-d101497b027b <= 
+[ Wed 02-05-2018 08:09:11 PM ] || FROM => Model.Open <=  || LOG@ => The connection attempt failed. <= 
+[ Wed 02-05-2018 08:09:42 PM ] || FROM => Model.Open <=  || LOG@ => Connection to 172.17.0.3:1433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections. <= 
+[ Wed 02-05-2018 08:09:57 PM ] || FROM => Model.Open <=  || LOG@ => Connection to 172.17.0.3:5740 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections. <= 
+[ Wed 02-05-2018 08:10:48 PM ] || FROM => Model.Open <=  || LOG@ => FATAL: password authentication failed for user "sa" <= 
+[ Wed 02-05-2018 08:11:13 PM ] || FROM => Model.Open <=  || LOG@ => FATAL: password authentication failed for user "sa" <= 
+[ Wed 02-05-2018 08:12:54 PM ] || FROM => Model.Open <=  || LOG@ => The connection attempt failed. <= 
