@@ -1,4 +1,4 @@
-package smlogx.api.v1.Databases;
+package smlogx.api.v1.Databases.Engines;
 
 public enum Engine {
     MySQL,

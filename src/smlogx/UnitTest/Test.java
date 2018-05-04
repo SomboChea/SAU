@@ -1,12 +1,9 @@
 package smlogx.UnitTest;
 
-import smlogx.api.v1.Classes.Models.Students.Student;
-import smlogx.api.v1.Configuration.Prefs.Config;
-import smlogx.api.v1.Configuration.Database.DBNode;
-import smlogx.api.v1.Databases.Engines.Model;
-import smlogx.api.v1.String.MString;
+import smlogx.api.v1.Databases.Queries.Queries;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.prefs.BackingStoreException;
 
 public class Test {
@@ -17,17 +14,23 @@ public class Test {
 
     public static void main(String[] args) throws BackingStoreException {
 
-        Config config = new Config(DBNode.DB_ROOT);
-
-        config.Write("driver", "mysql");
-        config.Write("host", "localhost");
-        config.Write("port", 3306);
-        config.Write("dbname", "test");
-        config.Write("username", "root");
-        config.Write("password", "");
+        Queries q = new Queries();
 
 
-        Model d = new Model();
+
+        //Singleton qq = Queries();
+
+//        Config config = new Config(DBNode.DB_ROOT);
+//
+//        config.Write("driver", "mysql");
+//        config.Write("host", "localhost");
+//        config.Write("port", 3306);
+//        config.Write("dbname", "test");
+//        config.Write("username", "root");
+//        config.Write("password", "");
+//
+//
+//        Model d = new Model();
 
         //System.out.println(d.Open());
         //Config mycfg = new Config("mynode.config");
@@ -44,19 +47,36 @@ public class Test {
 
         //String[] data = {"name", "age"};
 
-        ArrayList<String> data = new ArrayList<>();
-        data.add("name");
-        data.add("age");
+//        ArrayList<String> data = new ArrayList<>();
+//        data.add("name");
+//        data.add("age");
+//
+//        String dd = "name,age";
+//
+//        String res = MString.implode(data,":");
+//
+//        String[] dat = MString.explode(res,":");
+//
+//        System.out.println(dat[1]);
+//
+//        Student std = new Student();
+//        std.name = "ss";
 
-        String dd = "name,age";
+//        ArrayList<HashMap> list = new ArrayList<>();
+//
+//        HashMap<String, Object> m = new HashMap<>();
+//        m.put("a",1);
+//        m.put("b",2);
+//
+//        list.add(m);
+//
+//        HashMap<String, Object> m2 = new HashMap<>();
+//        m.put("a",3);
+//        m.put("b",4);
+//
+//        list.add(m2);
+//
+//        System.out.println(list);
 
-        String res = MString.implode(data,":");
-
-        String[] dat = MString.explode(res,":");
-
-        System.out.println(dat[1]);
-
-        Student std = new Student();
-        std.name = "ss";
     }
 }

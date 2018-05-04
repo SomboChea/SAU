@@ -1,14 +1,21 @@
 package smlogx.api.v1.Interfaces.Database;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public interface IBaseDatabase {
 
+    interface IQueries {
+        boolean Execute(String sql);
+        Object Query(String sql);
+        ResultSet GetResultSet(String sql);
+        HashMap<String, Object> GetModel(String sql);
+    }
+
     interface IDBAction {
         boolean Open() throws SQLException;
-        Object Query(String sql);
-        Object GetModel(String table, String ext);
         boolean Close();
     }
 

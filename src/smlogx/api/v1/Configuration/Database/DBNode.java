@@ -1,7 +1,7 @@
 package smlogx.api.v1.Configuration.Database;
 
 import smlogx.api.v1.Configuration.Prefs.Config;
-import smlogx.api.v1.Databases.Engine;
+import smlogx.api.v1.Databases.Engines.Engine;
 
 public class DBNode {
     private String _node;

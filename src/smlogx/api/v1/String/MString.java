@@ -6,7 +6,7 @@ public class MString {
 
     public static String implode(ArrayList<String> data, CharSequence separator) {
 
-        return String.join(separator,data);
+        return String.join(separator, data);
     }
 
     public static String[] explode(String data, String splitter) {
@@ -15,12 +15,18 @@ public class MString {
     }
 
     public static String concat(String[] data) {
+
         String ext = "";
         for (String a:data
                 ) {
             ext += a;
         }
         return ext;
+    }
+
+    public static String implode(String[] data, CharSequence separator) {
+
+        return String.join(separator, data);
     }
 
 }

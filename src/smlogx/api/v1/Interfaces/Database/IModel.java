@@ -1,5 +1,7 @@
 package smlogx.api.v1.Interfaces.Database;
 
 public interface IModel {
-    void save();
+    boolean save();
+    boolean update();
+    boolean delete();
 }
